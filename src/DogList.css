@@ -1,0 +1,25 @@
+#Dog-container {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.Dog-card {
+    margin: 10px;
+    width: 300px;
+}
+
+.Dog-card > img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 25px;
+}
